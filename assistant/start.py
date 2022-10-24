@@ -29,7 +29,7 @@ if Owner_info_msg is None:
 
 **Message Forwards** - {udB.get_key("PMBOT")}
 
-**Ayra [v{ultroid_version}](https://github.com/riizzvbss/Ayra-Userbot2), powered by @Riizzvbss**
+**ᴋʟʏ [v{ultroid_version}](https://github.com/sip-userbot/Nande-Userbot), powered by @klyuserbot**
 """
 
 
@@ -159,7 +159,7 @@ async def ultroid(event):
 @callback("stat", owner=True)
 async def botstat(event):
     ok = len(get_all_users("BOT_USERS"))
-    msg = """Ayra Assistant - Stats
+    msg = """ᴋʟʏ Assistant - Stats
 Total Users - {}""".format(
         ok,
     )
