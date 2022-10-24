@@ -32,7 +32,7 @@ from . import _ult_cache
 
 SUP_BUTTONS = [
     [
-        Button.url("• Repo •", url="https://github.com/riizzvbss/Ayra-Userbot2"),
+        Button.url("• Repo •", url="https://github.com/sip-userbot/Nande-Ultroid"),
         Button.url("• Support •", url="t.me/gdrnch"),
     ],
 ]
@@ -169,14 +169,14 @@ async def _(e):
 async def repo(e):
     res = [
         await e.builder.article(
-            title="Ayra Userbot",
+            title="ᴋʟʏ Userbot",
             description="Userbot | Telethon",
             thumb=wb(ultpic, 0, "image/jpeg", []),
-            text="• **AYRA USERBOT** •",
+            text="• **ᴋʟʏ USERBOT** •",
             buttons=SUP_BUTTONS,
         ),
     ]
-    await e.answer(res, switch_pm="Ayra Repo.", switch_pm_param="start")
+    await e.answer(res, switch_pm="ᴋʟʏ Repo.", switch_pm_param="start")
 
 
 @in_pattern("go", owner=True)
@@ -574,7 +574,7 @@ async def inline_tl(ult):
             [
                 await ult.builder.article(
                     title="How to Use?",
-                    description="Tl Searcher by Ayra",
+                    description="Tl Searcher by ᴋʟʏ",
                     url="https://t.me/gdrnch",
                     text=text,
                 )
@@ -610,10 +610,10 @@ InlinePlugin.update(
     {
         "Pʟᴀʏ Sᴛᴏʀᴇ Aᴘᴘs": "app telegram",
         "Mᴏᴅᴅᴇᴅ Aᴘᴘs": "mods minecraft",
-        "Sᴇᴀʀᴄʜ Oɴ Gᴏᴏɢʟᴇ": "go Ayra Project",
+        "Sᴇᴀʀᴄʜ Oɴ Gᴏᴏɢʟᴇ": "go Nande Project",
         "WʜɪSᴘᴇʀ": "wspr @username Hello🎉",
         "YᴏᴜTᴜʙᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ": "yt Ed Sheeran Perfect",
-        "Piston Eval": "run javascript console.log('Hello Ayra')",
+        "Piston Eval": "run javascript console.log('Hello ᴋʟʏ')",
         "OʀᴀɴɢᴇFᴏx🦊": "ofox beryllium",
         "Tᴡɪᴛᴛᴇʀ Usᴇʀ": "twitter ayra",
         "Fᴅʀᴏɪᴅ Sᴇᴀʀᴄʜ": "fdroid telegram",
