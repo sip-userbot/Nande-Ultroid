@@ -67,7 +67,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 </details>
 
 <details>
-<summary><b>🔗 Deploy di VPS</b></summary>
+<summary><b>🔗 Redis & Mongo </b></summary>
 <br>
 
 ### Tutorial Redis & Mongo
