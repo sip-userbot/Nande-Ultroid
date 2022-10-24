@@ -14,7 +14,7 @@ COPY installer.sh .
 RUN bash installer.sh
 
 # changing workdir
-WORKDIR "/root/riizzvbss"
+WORKDIR "/root/sip-userbot"
 
 # start the bot.
 CMD ["bash", "startup"]
