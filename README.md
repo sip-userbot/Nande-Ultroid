@@ -43,6 +43,8 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
  
  • `pip3 install -r resources/startup/optional-requirements.txt`
 
+ • `cp sample_config.env .env `
+
  • `nano .env `
   - isi vars
   - Jika sudah 
