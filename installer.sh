@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-REPO="https://github.com/riizzvbss/Ayra-Userbot2.git"
-DIR="/root/riizzvbss"
+REPO="https://github.com/sip-userbot/Nande-Ultroid.git"
+DIR="/root/sip-userbot"
 
 spinner(){
     local pid=$!
