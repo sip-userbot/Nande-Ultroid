@@ -1,5 +1,5 @@
 {
-    "name": "Ayra UserBot",
+    "name": "KLY Userbot",
     "description": "Pluggable telegram userbot, made in python using Telethon.",
     "logo": "https://graph.org/file/098f5964288af38f0f343.jpg",
     "keywords": [
@@ -9,9 +9,9 @@
         "python",
         "Ayra"
     ],
-    "repository": "https://github.com/riizzvbss/Ayra",
-    "website": "https://Ayra.tech",
-    "success_url": "https://t.me/riizzvbss",
+    "repository": "https://github.com/sip-userbot/Nande-Ultroid",
+    "website": "https://Nande.tech",
+    "success_url": "https://t.me/sip-userbot",
     "stack": "container",
     "env": {
         "API_ID": {
@@ -48,7 +48,7 @@
         }
     },
     "formation": {
-        "Ayra": {
+        "Nande": {
             "quantity": 1,
             "size": "free"
         }
